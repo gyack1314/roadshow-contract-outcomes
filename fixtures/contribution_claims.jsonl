@@ -1,0 +1,6 @@
+{"row_id":"contribution_claims:000001","claim_id":"G1","revision":1,"party":"organizer","scopes":["K0:1","K1:1"],"sessions":["S0","S1"],"lower_minor":30000,"upper_minor":60000,"status":"confirmed","received_batch":1}
+{"row_id":"contribution_claims:000002","claim_id":"G2","revision":1,"party":"buyer","scopes":["K1:1","K2:1"],"sessions":["S1","S2"],"lower_minor":20000,"upper_minor":55000,"status":"confirmed","received_batch":1}
+{"row_id":"contribution_claims:000003","claim_id":"G3","revision":1,"party":"buyer","scopes":["K0:1","K1:1","K2:1"],"sessions":["S0","S1","S2"],"lower_minor":50000,"upper_minor":80000,"status":"confirmed","received_batch":1}
+{"row_id":"contribution_claims:000004","claim_id":"G4","revision":1,"party":"organizer","scopes":["K3:1"],"sessions":["S3"],"lower_minor":40000,"upper_minor":45000,"status":"confirmed","received_batch":1}
+{"row_id":"contribution_claims:000005","claim_id":"G5","revision":1,"party":"buyer","scopes":["K3:1"],"sessions":["S3"],"lower_minor":10000,"upper_minor":30000,"status":"confirmed","received_batch":2}
+{"row_id":"contribution_claims:000006","claim_id":"G1","revision":2,"party":"organizer","scopes":["K0:1","K1:1"],"sessions":["S0","S1"],"lower_minor":30000,"upper_minor":60000,"status":"withdrawn","received_batch":3}

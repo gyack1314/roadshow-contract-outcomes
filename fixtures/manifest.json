@@ -1,0 +1,126 @@
+{
+  "schema_version": 2,
+  "synthetic": true,
+  "project": "路演合作的群组贡献边界与联合复盘确认",
+  "tables": [
+    {
+      "file": "fixtures/sessions.jsonl",
+      "rows": 13,
+      "sha256": "7b78d51cbff38ab459eb196115eb40201e3b5e37a3d04dd42d0afebdc18ce3e2",
+      "columns": [
+        "actual_day",
+        "planned_day",
+        "project",
+        "replaces",
+        "revision",
+        "row_id",
+        "session_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/cooperations.jsonl",
+      "rows": 5,
+      "sha256": "62f79fb05a058d33fdbfa67e0277d206f729bdae71af7a8646cb13b1c39a3811",
+      "columns": [
+        "confirmed_session_ids",
+        "cooperation",
+        "enterprise",
+        "project",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/contract_scopes.jsonl",
+      "rows": 11,
+      "sha256": "3173f0cb0a20f813b7c0067935ae32822a96d8e93f9691eef7fdae0009e364ed",
+      "columns": [
+        "contract",
+        "cooperation",
+        "received_batch",
+        "revision",
+        "row_id",
+        "scope_id",
+        "signed_month",
+        "valid_minor"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/contribution_claims.jsonl",
+      "rows": 6,
+      "sha256": "984c8ec8068755b6f1d60e9c79f141c9358ccfaa0efcb1a97554b2afd6bbc3fb",
+      "columns": [
+        "claim_id",
+        "lower_minor",
+        "party",
+        "received_batch",
+        "revision",
+        "row_id",
+        "scopes",
+        "sessions",
+        "status",
+        "upper_minor"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/acceptances.jsonl",
+      "rows": 10,
+      "sha256": "7b0b1161f70a2f8f4e836f112fd28d57d9d94bb4fb70f5c0cdb6e7261f166248",
+      "columns": [
+        "acceptance_id",
+        "amount_minor",
+        "month",
+        "received_batch",
+        "row_id",
+        "scope_id",
+        "scope_revision"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/refunds.jsonl",
+      "rows": 1,
+      "sha256": "9dfd19d2d1aa152d30b640f05c0440342849c28b1bc681781d0d36d04477f90e",
+      "columns": [
+        "acceptance_id",
+        "amount_minor",
+        "month",
+        "received_batch",
+        "refund_id",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/publications.jsonl",
+      "rows": 1,
+      "sha256": "93c9467e72147a5ba5cb94a8bc2a48f7dab610c0fc4705c2452874f4b64e85f0",
+      "columns": [
+        "data_batch",
+        "month",
+        "publication_id",
+        "row_id",
+        "status"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    }
+  ],
+  "scope": "本地合成的原始来源观察、业务政策与操作请求。"
+}

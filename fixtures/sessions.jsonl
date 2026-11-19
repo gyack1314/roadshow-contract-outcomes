@@ -1,0 +1,13 @@
+{"row_id":"sessions:000001","session_id":"S0","revision":1,"project":"P0","planned_day":"2026-11-19","actual_day":"2026-11-19","replaces":null}
+{"row_id":"sessions:000002","session_id":"S1","revision":1,"project":"P1","planned_day":"2026-11-20","actual_day":"2026-11-20","replaces":null}
+{"row_id":"sessions:000003","session_id":"S2","revision":1,"project":"P2","planned_day":"2026-11-21","actual_day":"2026-11-21","replaces":null}
+{"row_id":"sessions:000004","session_id":"S3","revision":1,"project":"P3","planned_day":"2026-11-19","actual_day":"2026-11-19","replaces":null}
+{"row_id":"sessions:000005","session_id":"S4","revision":1,"project":"P4","planned_day":"2026-11-20","actual_day":"2026-11-20","replaces":null}
+{"row_id":"sessions:000006","session_id":"S5","revision":1,"project":"P0","planned_day":"2026-11-21","actual_day":"2026-11-21","replaces":null}
+{"row_id":"sessions:000007","session_id":"S6","revision":1,"project":"P1","planned_day":"2026-11-19","actual_day":"2026-11-19","replaces":null}
+{"row_id":"sessions:000008","session_id":"S7","revision":1,"project":"P2","planned_day":"2026-11-20","actual_day":"2026-11-20","replaces":null}
+{"row_id":"sessions:000009","session_id":"S8","revision":1,"project":"P3","planned_day":"2026-11-21","actual_day":"2026-11-21","replaces":null}
+{"row_id":"sessions:000010","session_id":"S9","revision":1,"project":"P4","planned_day":"2026-11-19","actual_day":"2026-11-19","replaces":null}
+{"row_id":"sessions:000011","session_id":"S10","revision":1,"project":"P0","planned_day":"2026-11-20","actual_day":"2026-11-20","replaces":null}
+{"row_id":"sessions:000012","session_id":"S11","revision":1,"project":"P1","planned_day":"2026-11-21","actual_day":"2026-11-21","replaces":null}
+{"row_id":"sessions:000013","session_id":"S0","revision":2,"project":"P0","planned_day":"2026-11-19","actual_day":"2026-11-21","replaces":"S0:1"}

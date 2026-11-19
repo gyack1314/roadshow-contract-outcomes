@@ -1,11 +1,21 @@
-# 路演项目从发布场次到履约收入的结果核对
+# 路演合作的群组贡献边界与联合复盘确认
 
-本地场景资料以原始业务事件记录呈现；字段说明见 `CONTRACT.md`。
+业务输入与政策见[数据契约](docs/数据契约.md)，原始表见fixtures/manifest.json。
 
-## 运行
+## 本地环境
+
+Python 3.11，依赖固定在requirements.txt。安装与资料检查：
 
 ```sh
+python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 ```
 
-合成输入位于 `fixtures/scenario.json`。
+容器可复现资料检查：
+
+```sh
+docker build -t culture-analysis-local .
+docker run --rm culture-analysis-local
+```
+
+业务应用应提供与其实际功能对应的操作说明和运行测试。上述现有检查只验证来源材料，不计算业务结果。

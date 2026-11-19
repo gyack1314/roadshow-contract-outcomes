@@ -1,0 +1,11 @@
+{"row_id":"contract_scopes:000001","scope_id":"K0","cooperation":"C0","contract":"CT0","revision":1,"signed_month":"2026-11","valid_minor":100000,"received_batch":1}
+{"row_id":"contract_scopes:000002","scope_id":"K1","cooperation":"C1","contract":"CT1","revision":1,"signed_month":"2026-11","valid_minor":110000,"received_batch":1}
+{"row_id":"contract_scopes:000003","scope_id":"K2","cooperation":"C2","contract":"CT2","revision":1,"signed_month":"2026-11","valid_minor":120000,"received_batch":1}
+{"row_id":"contract_scopes:000004","scope_id":"K3","cooperation":"C3","contract":"CT3","revision":1,"signed_month":"2026-11","valid_minor":130000,"received_batch":1}
+{"row_id":"contract_scopes:000005","scope_id":"K4","cooperation":"C4","contract":"CT4","revision":1,"signed_month":"2026-11","valid_minor":140000,"received_batch":1}
+{"row_id":"contract_scopes:000006","scope_id":"K5","cooperation":"C0","contract":"CT0","revision":1,"signed_month":"2026-11","valid_minor":150000,"received_batch":1}
+{"row_id":"contract_scopes:000007","scope_id":"K6","cooperation":"C1","contract":"CT1","revision":1,"signed_month":"2026-11","valid_minor":160000,"received_batch":1}
+{"row_id":"contract_scopes:000008","scope_id":"K7","cooperation":"C2","contract":"CT2","revision":1,"signed_month":"2026-11","valid_minor":170000,"received_batch":1}
+{"row_id":"contract_scopes:000009","scope_id":"K8","cooperation":"C3","contract":"CT3","revision":1,"signed_month":"2026-11","valid_minor":180000,"received_batch":1}
+{"row_id":"contract_scopes:000010","scope_id":"K9","cooperation":"C4","contract":"CT4","revision":1,"signed_month":"2026-11","valid_minor":190000,"received_batch":1}
+{"row_id":"contract_scopes:000011","scope_id":"K0","cooperation":"C0","contract":"CT0","revision":2,"signed_month":"2026-11","valid_minor":130000,"received_batch":2}
