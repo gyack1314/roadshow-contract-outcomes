@@ -55,8 +55,8 @@
     },
     {
       "file": "fixtures/contribution_claims.jsonl",
-      "rows": 6,
-      "sha256": "984c8ec8068755b6f1d60e9c79f141c9358ccfaa0efcb1a97554b2afd6bbc3fb",
+      "rows": 9,
+      "sha256": "e9c0c5096bf7c438095ff826660ae830bfb955fc0afe82332378fc53871b2c4b",
       "columns": [
         "claim_id",
         "lower_minor",
