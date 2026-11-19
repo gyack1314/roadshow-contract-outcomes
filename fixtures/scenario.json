@@ -65,9 +65,6 @@
       "accepted_cny": 60000
     }
   ],
-  "facts": {
-    "sessions": 4,
-    "contracts": 3,
-    "milestones": 7
-  }
+  "facts": {},
+  "observed_record_count": 6
 }
