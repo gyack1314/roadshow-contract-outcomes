@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "business": "roadshow-contract-outcomes",
+  "synthetic": true,
+  "entities": [
+    "project-p",
+    "session-s1",
+    "session-s1-r2",
+    "meeting-m1",
+    "cooperation-c1",
+    "contract-v1",
+    "contract-v2"
+  ],
+  "event_types": [
+    "session-published",
+    "session-rescheduled",
+    "attended",
+    "meeting-held",
+    "contract-signed",
+    "scope-amended",
+    "milestone-accepted",
+    "refund-issued"
+  ],
+  "records": [
+    {
+      "event_id": "r01",
+      "type": "session-published",
+      "session": "session-s1",
+      "revision": 1,
+      "project": "project-p"
+    },
+    {
+      "event_id": "r02",
+      "type": "session-rescheduled",
+      "session": "session-s1",
+      "revision": 2,
+      "start": "2026-11-19T14:00:00+08:00"
+    },
+    {
+      "event_id": "r03",
+      "type": "attended",
+      "session": "session-s1",
+      "party": "org-4",
+      "scan_id": "scan-8"
+    },
+    {
+      "event_id": "r04",
+      "type": "contract-signed",
+      "contract": "contract-v1",
+      "project": "project-p",
+      "amount_cny": 120000
+    },
+    {
+      "event_id": "r05",
+      "type": "scope-amended",
+      "contract": "contract-v2",
+      "replaces": "contract-v1",
+      "amount_delta_cny": 30000
+    },
+    {
+      "event_id": "r06",
+      "type": "milestone-accepted",
+      "contract": "contract-v2",
+      "milestone": "M1",
+      "accepted_cny": 60000
+    }
+  ],
+  "facts": {
+    "sessions": 4,
+    "contracts": 3,
+    "milestones": 7
+  }
+}
